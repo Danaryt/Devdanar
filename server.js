@@ -5,8 +5,8 @@ const talkedRecently = new Set();
 
 
 client.on("ready", () => {
-  console.log("Vex ★ MrHAMA")
-  client.user.setActivity("Send Link Robot UP , MrHama")
+  console.log("Vex ★ DanarDev"-)
+  client.user.setActivity("Send Link Danar Up, Dev-Danar")
 })
 
 
@@ -20,9 +20,9 @@ if(vex.content.includes("discord.gg")){
 
 if(vex.channel.type === "dm"){ 
 if(vex.author.id===client.user.id) return; 
-vex.author.send("https://discord.gg/BmzN8ZvgQN")
+vex.author.send("https://discord.gg/uryKq24RCm")
 let s2 = vex .content = vex.content.replace(/@(everyone)/, "🥰").replace(/@(here)/, "🥰");
-let hama1 = client.channels.cache.get("755228220911255552")//id bashe reklam
+let hama1 = client.channels.cache.get("847947012786880534")//id bashe reklam
 hama1.send(`
 ناردرا لە لایەن
 <@${vex.author.id}> ` +`
